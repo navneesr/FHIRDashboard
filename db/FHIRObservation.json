@@ -1,0 +1,27 @@
+{
+    "resourceType": "Observation",
+    "id": "97c4c62a-7820-4994-b987-9ba74e688fb6",
+    "meta": {
+        "profile": [
+            "http://standardhealthrecord.org/fhir/StructureDefinition/shr-finding-Observation"
+        ]
+    },
+    "status": "final",
+    "category": [{
+        "coding": []
+    }],
+    "code": {
+        "coding": [],
+        "text": "Leukocytes [#/volume] in Blood by Automated count"
+    },
+    "subject": {
+        "id": "db889c75-ad95-4f2e-a58e-964942ee167b",
+        "reference": "urn:uuid:935cd049-ba7b-425f-8cde-d3abf0ee6071"
+    },
+    "context": {
+        "reference": "urn:uuid:27d8a493-02d6-4996-97dd-d541d9a1f188"
+    },
+    "effectiveDateTime": "2008-10-13T00:27:04-07:00",
+    "issued": "2008-10-13T00:27:04.884-07:00",
+    "valueQuantity": {}
+}
